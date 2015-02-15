@@ -1,0 +1,9 @@
+REFERENCES
+
+Github repositories:
+- Code Source=https://github.com/udacity/frontend-nanodegree-resume
+- Final submission=https://github.com/jsilverton/frontend-nanodegree-resume/tree/master
+
+Image placeholders:
+- Cats=http://placekitten.com/
+- Dog=http://dogcitydaycare.com.au/wp-content/uploads/2012/09/French-BDog-Smaller-140x140.jpg
