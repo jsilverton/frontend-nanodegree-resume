@@ -130,7 +130,7 @@ bio.display = new function() {
 		}
 	}
 };
-*/
+
 
 //display work
 work.display = new function() {
