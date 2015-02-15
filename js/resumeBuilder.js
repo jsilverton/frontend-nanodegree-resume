@@ -1,4 +1,4 @@
-
+//DATA
 var bio = {
 	"name": "Jo Silverton",
 	"role": "Technology Consultant",
@@ -68,16 +68,19 @@ var projects = {
 			"title": "Genesis",
 			"dates": "2005-2010",
 			"description": "Defra project. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.",
-			"images": ["images/140.jpg", "images/140.jpg"]
+			"images": ["images/cat140.jpg", "images/cat140.jpg"]
 		},
 		{
 			"title": "PTP",
 			"dates": "2012-2013",
 			"description": "Foreign & Commonwealth project. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. ",
-			"images": ["images/138.jpg", "images/138.jpg"]
+			"images": ["images/cat138.jpg", "images/cat138.jpg"]
 		}
 	]
 };
+
+
+//DISPLAY FUNCTIONS - note these are part of json objects above, declared separately to data for clarity.
 
 //display bio
 bio.display = new function() {
@@ -127,6 +130,7 @@ bio.display = new function() {
 		}
 	}
 };
+
 
 //display work
 work.display = new function() {
